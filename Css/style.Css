@@ -1,0 +1,329 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Almarai', sans-serif;
+font-family: 'Farsan', cursive;
+font-family: 'Noto Kufi Arabic', sans-serif;
+font-family: 'Readex Pro', sans-serif;
+font-family: 'Work Sans', sans-serif;
+height: 400px;
+}
+
+.nav .bacgr {
+width: 100%;
+}
+
+.nav {
+    background-image: url('img\blue_bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    position: relative;
+}
+
+.nav .logo-website {
+    position: absolute;
+    top: -100%; 
+    left: -40%;
+    width: 110px;}
+
+.nav .left-nav {
+    position: absolute;
+    top: 6%; 
+    left: 15%;
+}
+ 
+.nav .left-nav a {
+    text-decoration:none;
+    color:black ;
+    margin-right:25px ;
+    
+}
+
+.nav .left-nav a:hover {
+    text-decoration: underline; /* إضافة خط تحت الرابط عند حدوث hover */
+    text-decoration-color : rgb(140, 21, 252);
+}
+
+
+.nav .right-nav {
+    position: absolute;
+    top: 4%; 
+    left: 87%;
+}
+
+.right-nav button {
+    border-radius: 30px;
+    size: 40px;
+    padding: 5px 24px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    color: #030000cd;
+    background-color: #ffffff;
+    border: none;
+}
+
+.nav .text {
+    position: absolute;
+    top: 270px;
+    left: 100px;
+} 
+.nav h3 {
+    font-size: 40px;
+    margin-bottom: 8px;
+    color: rgb(38, 38, 38);
+}
+
+.nav p {
+    font-size: 20px;
+}
+.nav .landing_bg {
+    width: 640px;
+    position: absolute;
+    left: 590px;
+    top: -210px;
+}
+
+.nav .Mask {
+    width: 260px;
+    position: absolute;
+    left: 740px;
+    top: -210px;
+}
+
+.nav .waves {
+    width: 1000px;
+    position: absolute;
+    left: -80px;
+    top: 270px;
+    background-size: cover;
+}
+
+.nav .clouds {
+    width: 360px;
+    position: absolute;
+    left: 670px;
+    bottom: -230px;
+}
+
+.second-sec {
+    position: relative;
+}
+
+.second-sec .super-fast .second_section_ {
+
+    position: absolute;
+    width: 800px;
+    left: 270px;
+    top: 80px;
+}
+
+.second-sec .super-fast .Group {
+    width: 170px;
+    position: absolute;
+    left: 190px;
+    bottom: -270px;
+}
+
+.second-sec .super-fast h4 {
+    font-size: 20px;
+    position: absolute;
+    top : 280px;
+    left: 175px;
+    color: rgb(38, 38, 38);
+
+}
+
+.second-sec .super-fast p {
+    font-size: 15px;
+    position: absolute;
+    top : 310px;
+    left: 120px;
+    color: rgb(38, 38, 38);
+    text-align: center;
+}
+
+.second-sec .real-time .Group_152 {
+
+    position: absolute;
+    width: 200px;
+    left: 560px;
+    top: 250px;
+}
+
+.second-sec .real-time h4 {
+    font-size: 20px;
+    position: absolute;
+    left: 565px;
+    top: 420px;
+    color: rgb(38, 38, 38);
+}
+
+.second-sec .real-time p {
+    font-size: 15px;
+    position: absolute;
+    left: 500px;
+    top: 450px;
+    color: rgb(38, 38, 38);
+    text-align: center;
+}
+
+.second-sec .Group_1020 {
+    position: absolute;
+    width: 200px;
+    left: 850px;
+    top: 485px;
+}
+
+
+.second-sec .discount h4 {
+    font-size: 20px;
+    position: absolute;
+    left: 900px ;
+    top: 610px;
+    color: rgb(38, 38, 38);
+
+}
+
+.second-sec .discount p {
+    font-size: 15px;
+    position: absolute;
+    left: 780px ;
+    top: 640px;
+    color: rgb(38, 38, 38);
+    text-align: center;
+}
+
+.second-sec .kudzoka img {
+    position: absolute;
+    width: 290px;
+    left: 150px;
+    top: 485px;
+
+}
+
+.second-sec .kudzoka h3 {
+    position: absolute;
+    font-size: 35px;
+    color: rgb(255, 255, 255);
+    top: 590px;
+    left: 220px;
+
+}
+
+.second-sec .kudzoka p {
+    position: absolute;
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+    top: 574px;
+    left: 220px;
+}
+
+    /* ____________________________________________ */
+    
+.sec3 {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}    
+
+.sec3 .Group-1006 {
+    width: 150px;
+    position: absolute;
+    left: 220px;
+    top: 900px;
+}
+.sec3 .Group-1007 {
+    width: 350px;
+    position: absolute;
+    top: 790px;
+    left: 480px;
+}
+
+.sec3 .Group-1008{
+    width: 150px;
+    position: absolute;
+    left: 920px;
+    top: 930px;
+}
+
+.sec3 h3 {
+    font-size: 20px;
+    position: absolute;
+    left: 535px;
+    top: 1100px;
+    color: rgb(38, 38, 38);
+}
+
+.sec3 p {
+    font-size: 17px;
+    position: absolute;
+    left: 538px;
+    top: 1150px;
+    color: rgb(38, 38, 38);
+    text-align: center;
+}
+
+.end-img {
+    transform: translatey(1180px);
+    width: 1470px;
+    position: relative;
+    left: -100px;
+}
+
+.delivery {
+    position: absolute;
+    top: 2025px;
+    width: 640px;
+    left: 620px;
+}
+
+
+
+.icons .insta {
+    position: absolute;
+    top: 2342px;
+    left: 130px;
+}
+
+.icons .whats {
+    position: absolute;
+    top: 2340px;
+    left: 184px;
+}
+
+.icons .facebook {
+    position: absolute;
+    top: 2344px;
+    left: 240px;
+}
+.appStore {
+    position: absolute;
+    top: 2190px;
+    left: 95px;
+    width: 200px;
+}
+.playStore {
+    position: absolute;
+    top: 2253px;
+    left: 250px;
+    width: 200px;
+}
+
+.links {
+    display: flex;
+    position: absolute;
+    top: 2400px;
+    left: 130px;
+    right: 20px; }
+
+.links a {
+    margin-right: 60px ;
+    text-decoration: none;
+    color: white;
+}
